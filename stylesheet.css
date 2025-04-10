@@ -8,6 +8,7 @@ body {
 
 .ribbon {
   background-color: silver;
+  color: silver;
   text-align: center;
   height: 15vw;
   max-height: 200px;
