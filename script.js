@@ -1,6 +1,14 @@
-function showText()
-{
-  document.getElementById("message1").style.display = "block";
-  document.getElementById("button1").style.display = "none";
-  document.getElementById("header-text").style.display = "block";
+// script.js
+function showText() {
+    const headerText = document.getElementById('header-text');
+    const message1 = document.getElementById('message1');
+
+    // Toggle visibility
+    if (headerText.style.display === 'none') {
+        headerText.style.display = 'block';
+        message1.style.display = 'block';
+    } else {
+        headerText.style.display = 'none';
+        message1.style.display = 'none';
+    }
 }
