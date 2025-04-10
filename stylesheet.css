@@ -10,7 +10,7 @@ body {
   background-color: silver;
   text-align: center;
   height: 15vw;
-  max-height: 100px;
+  max-height: 200px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -22,7 +22,7 @@ body {
   max-width: 210px;
   width: 30%;
   height: 15vw;
-  max-height: 100px;
+  max-height: 200px;
   border-radius: 50px;
   margin: 5%;
   object-fit: cover;
