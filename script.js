@@ -1,9 +1,9 @@
-// script.js
+
 function showText() {
     const headerText = document.getElementById('header-text');
     const message1 = document.getElementById('message1');
 
-    // Toggle visibility
+
     if (headerText.style.display === 'none') {
         headerText.style.display = 'block';
         message1.style.display = 'block';
