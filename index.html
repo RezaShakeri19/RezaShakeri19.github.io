@@ -4,23 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Monkey Business!</title>
-  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <title>Monkey Business</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <header>
     <div class="ribbon">
-      <img class="header-logo" src="mk1.jpg" alt="Monkey Logo!">
-      <h1 class="header-text">"Moneky see, money do!🐒"</h1>
-      <div class="button-container">
-        <button class="header-button" onclick="window.location.href='index.html';">Home</button>
+        <button class="header-button" onclick="location.href='index.html'">
+          <img class="header-logo" src="mk1.jpg" alt="Monkey Logo!">
+        </button>
+       
+      
+        <h1 class="header-text" id="header-text" style="display:none" >Saw the move? Played it too. Monkey see, monkey do!🐒</h1>
+          
+      <div class="ribbon-right-container">
+        <div class="button-container">
+          <button id="button1" class="header-button" style="display:block" onclick="showText()">click here and see what is going on here?</button>
+        </div>
       </div>
     </div>
   </header>
+
+
+  
   <main> 
-    
-    
+    <p id="message1" style="display:none"> Hello! I'm Reza and I want to use this platform to demonstrate my web development skills!</p>
   </main>
   <script src="script.js"></script>
 </body>
