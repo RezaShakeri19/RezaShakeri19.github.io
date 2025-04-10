@@ -4,7 +4,7 @@ function showText() {
     const button1 = document.getElementById('button1');
     const button2 = document.getElementById('button2');
 
-    if (headerText.style.display === 'none') {
+    if (window.getComputedStyle(headerText).display === 'none') {
         headerText.style.display = 'block';
         message1.style.display = 'block';
         button1.style.display = 'none'; 
