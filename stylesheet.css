@@ -20,6 +20,6 @@ p.username {
   background-color: crimson;
   color: white;
   padding: 10px;
-  text-align: center;
-  font-weight: bold;
+  height: 100px;
+  width: 100%;
 }
