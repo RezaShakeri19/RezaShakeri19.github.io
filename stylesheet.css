@@ -16,3 +16,10 @@ img {
 p.username {
   font-weight: bold;
 }
+.ribbon {
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
