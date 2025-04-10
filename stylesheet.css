@@ -25,6 +25,7 @@ p.username {
   padding: 10px;
   height: 100px;
   width: 100%;
+  border: 20px;
 }
 body {
   margin: 0;
